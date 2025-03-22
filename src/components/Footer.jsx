@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-[1121px] flex flex-col gap-8 md:flex-row w-full justify-between pt-20">
         <div className="flex max-w-[282px] flex-col gap-8">
           <a href="#_">
-            <img src="/assets/nft/infynft/logo.svg" alt="logo" />
+            <img src="/assets/nft/infynft/logo.svg" alt="logo" loading="lazy" />
           </a>
           <div className="text-lg">
             We are a huge marketplace dedicated to connecting great artists of

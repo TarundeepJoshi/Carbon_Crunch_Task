@@ -52,7 +52,11 @@ function HeroSection() {
         <div>
           <button className="hover:border-white hover:border border border-transparent flex items-center gap-2 rounded px-3 py-2.5 text-sm font-semibold bg-gradient-to-r from-green-500 via-green-500 to-teal-500 text-white">
             Explore Now
-            <img src="/assets/nft/infynft/arrow.svg" alt="arrow image" />
+            <img
+              src="/assets/nft/infynft/arrow.svg"
+              alt="arrow image"
+              loading="lazy"
+            />
           </button>
         </div>
       </div>
@@ -70,6 +74,7 @@ function HeroSection() {
             <img
               src="/assets/nft/infynft/round.png"
               alt="NFT Bubble"
+              loading="lazy"
               className="w-full h-auto object-contain filter drop-shadow-lg transition-all duration-500"
             />
 

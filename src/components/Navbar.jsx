@@ -36,6 +36,7 @@ function Navbar() {
         <img
           src="/assets/nft/infynft/back.png"
           alt="backimg"
+          loading="lazy"
           className="mx-auto"
         />
       </div>
@@ -48,7 +49,7 @@ function Navbar() {
       >
         <div className="md:max-w-[1120px] flex items-center justify-between md:px-0 md:gap-5 mb-8 md:mb-16 container md:mx-auto">
           <a href="#_" className="z-10">
-            <img src="/assets/nft/infynft/logo.svg" alt="logo" />
+            <img src="/assets/nft/infynft/logo.svg" alt="logo" loading="lazy" />
           </a>
           <div className="gap-5 md:flex hidden z-10">
             {navitem.map((data, index) => {

@@ -96,6 +96,7 @@ function OurCollection() {
                 <img
                   src={data.mainimg}
                   alt="img"
+                  loading="lazy"
                   className="w-[350px] hover:scale-125 transition-all duration-500 ease-in-out"
                 />
               </div>

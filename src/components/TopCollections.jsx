@@ -77,6 +77,7 @@ function TopCollections() {
                 <img
                   src={data.img}
                   alt={data.title}
+                  loading="lazy"
                   className="w-full h-52 object-cover transition-transform duration-500 hover:scale-110"
                 />
               </div>

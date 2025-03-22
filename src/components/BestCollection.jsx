@@ -79,6 +79,7 @@ function BestCollection() {
                 <img
                   src={data.img}
                   alt="creator"
+                  loading="lazy"
                   className="w-24 h-24 mx-auto rounded-full border-4 border-green-500 hover:scale-110 transition-transform duration-300"
                 />
 
